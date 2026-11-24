@@ -95,16 +95,16 @@ each other cell for cell.
 
 | # | English | Czech | Topic |
 |---|---------|-------|-------|
-| 0 | [refresher](notebooks/en/00_refresher.ipynb) | [00_opakovani](notebooks/cs/00_opakovani.ipynb) | Expectation, variance, LLN, Chebyshev, CLT, confidence intervals |
-| 1 | [intro to Monte Carlo](notebooks/en/01_intro_to_monte_carlo.ipynb) | [01_uvod_do_monte_carla](notebooks/cs/01_uvod_do_monte_carla.ipynb) | π by hit-or-miss and Buffon, integrals, error ∝ 1/√N, ball volume |
-| 2 | [insurance company](notebooks/en/02_insurance_company.ipynb) | [02_pojistovna](notebooks/cs/02_pojistovna.ipynb) | Model, CLT vs simulation, ruin probability |
-| 3 | [discrete distributions](notebooks/en/03_discrete_distributions.ipynb) | [03_diskretni_rozdeleni](notebooks/cs/03_diskretni_rozdeleni.ipynb) | Linear / reordered / bisection sampling, Poisson, geometric |
-| 4 | [continuous distributions](notebooks/en/04_continuous_distributions.ipynb) | [04_spojita_rozdeleni](notebooks/cs/04_spojita_rozdeleni.ipynb) | Inverse transform, Cauchy (why the LLN fails), numerical inversion |
-| 5 | [mixtures & ordered samples](notebooks/en/05_mixtures_and_ordered_samples.ipynb) | [05_superpozice_a_usporadane_vybery](notebooks/cs/05_superpozice_a_usporadane_vybery.ipynb) | Superposition, sorted samples in O(n), top-k of a huge sample |
-| 6 | [rejection method](notebooks/en/06_rejection_method.ipynb) | [06_zamitaci_metoda](notebooks/cs/06_zamitaci_metoda.ipynb) | Box and envelope versions, normal from a Cauchy envelope, a wrong M |
-| 7 | [variance reduction](notebooks/en/07_variance_reduction.ipynb) | [07_snizovani_rozptylu](notebooks/cs/07_snizovani_rozptylu.ipynb) | Antithetic, control variate, stratification, importance sampling |
-| 8 | [distance in a ball](notebooks/en/08_distance_in_a_ball.ipynb) | [08_vzdalenost_v_kouli](notebooks/cs/08_vzdalenost_v_kouli.ipynb) | Uniform points in a ball, polar coordinates, symmetry, high dimensions |
-| 9 | [insurance, complete](notebooks/en/09_insurance_company_complete.ipynb) | [09_pojistovna_kompletne](notebooks/cs/09_pojistovna_kompletne.ipynb) | Confidence intervals and coverage, rare ruin by importance sampling, required capital |
+| 0 | [refresher](notebooks/en/00_refresher.ipynb) | [opakování](notebooks/cs/00_opakovani.ipynb) | Expectation, variance, LLN, Chebyshev, CLT, confidence intervals |
+| 1 | [intro to Monte Carlo](notebooks/en/01_intro_to_monte_carlo.ipynb) | [úvod do Monte Carla](notebooks/cs/01_uvod_do_monte_carla.ipynb) | π by hit-or-miss and Buffon, integrals, error ∝ 1/√N, ball volume |
+| 2 | [insurance company](notebooks/en/02_insurance_company.ipynb) | [pojišťovna](notebooks/cs/02_pojistovna.ipynb) | Model, CLT vs simulation, ruin probability |
+| 3 | [discrete distributions](notebooks/en/03_discrete_distributions.ipynb) | [diskrétní rozdělení](notebooks/cs/03_diskretni_rozdeleni.ipynb) | Linear / reordered / bisection sampling, Poisson, geometric |
+| 4 | [continuous distributions](notebooks/en/04_continuous_distributions.ipynb) | [spojitá rozdělení](notebooks/cs/04_spojita_rozdeleni.ipynb) | Inverse transform, Cauchy (why the LLN fails), numerical inversion |
+| 5 | [mixtures & ordered samples](notebooks/en/05_mixtures_and_ordered_samples.ipynb) | [superpozice a uspořádané výběry](notebooks/cs/05_superpozice_a_usporadane_vybery.ipynb) | Superposition, sorted samples in O(n), top-k of a huge sample |
+| 6 | [rejection method](notebooks/en/06_rejection_method.ipynb) | [zamítací metoda](notebooks/cs/06_zamitaci_metoda.ipynb) | Box and envelope versions, normal from a Cauchy envelope, a wrong M |
+| 7 | [variance reduction](notebooks/en/07_variance_reduction.ipynb) | [snižování rozptylu](notebooks/cs/07_snizovani_rozptylu.ipynb) | Antithetic, control variate, stratification, importance sampling |
+| 8 | [distance in a ball](notebooks/en/08_distance_in_a_ball.ipynb) | [vzdálenost v kouli](notebooks/cs/08_vzdalenost_v_kouli.ipynb) | Uniform points in a ball, polar coordinates, symmetry, high dimensions |
+| 9 | [insurance, complete](notebooks/en/09_insurance_company_complete.ipynb) | [pojišťovna kompletně](notebooks/cs/09_pojistovna_kompletne.ipynb) | Confidence intervals and coverage, rare ruin by importance sampling, required capital |
 
 Notebook 2 builds the insurance model and stops where simulation beats the CLT estimate; notebook 9 is
 the capstone that finishes it with the tools from 3–7.
@@ -115,29 +115,29 @@ Not numbered as lessons; the prefix is the *book chapter*.
 
 | English | Czech | Topic |
 |---------|-------|-------|
-| [when MC pays off](notebooks/en/extra/ch01_05_when_mc_pays_off.ipynb) | [ch01_05_kdy_se_mc_vyplati](notebooks/cs/extra/ch01_05_kdy_se_mc_vyplati.ipynb) | Series sums, MC vs quadrature (crossover at d = 4), dependent samples |
-| [Γ and B](notebooks/en/extra/ch03_gamma_beta.ipynb) | [ch03_gamma_beta](notebooks/cs/extra/ch03_gamma_beta.ipynb) | Summed exponentials, Marsaglia–Tsang, order statistics, χ² = Γ(k/2, ½) |
-| [generators](notebooks/en/extra/ch04_generators.ipynb) | [ch04_generatory](notebooks/cs/extra/ch04_generatory.ipynb) | LCG, the RANDU planes, Mersenne Twister |
-| [testing generators](notebooks/en/extra/ch04_tests_of_generators.ipynb) | [ch04_testy_generatoru](notebooks/cs/extra/ch04_testy_generatoru.ipynb) | χ², frequency, serial, poker, runs, autocorrelation |
-| [Markov chains & linear equations](notebooks/en/extra/ch06_markov_linear_equations.ipynb) | [ch06_markov_linearni_rovnice](notebooks/cs/extra/ch06_markov_linearni_rovnice.ipynb) | Solving Ax = b by random walks (von Neumann–Ulam) |
-| [walk & PDEs](notebooks/en/extra/ch06_walk_and_pde.ipynb) | [ch06_prochazka_a_pde](notebooks/cs/extra/ch06_prochazka_a_pde.ipynb) | Dirichlet and Poisson problems, walk on spheres |
-| [queueing](notebooks/en/extra/ch07_queueing.ipynb) | [ch07_hromadna_obsluha](notebooks/cs/extra/ch07_hromadna_obsluha.ipynb) | M/M/1, Δt model vs discrete-event model, warm-up |
-| [stochastic algorithms](notebooks/en/extra/ch09_stochastic_algorithms.ipynb) | [ch09_stochasticke_algoritmy](notebooks/cs/extra/ch09_stochasticke_algoritmy.ipynb) | Miller–Rabin primality, simulated annealing |
+| [when MC pays off](notebooks/en/extra/ch01_05_when_mc_pays_off.ipynb) | [kdy se MC vyplatí](notebooks/cs/extra/ch01_05_kdy_se_mc_vyplati.ipynb) | Series sums, MC vs quadrature (crossover at d = 4), dependent samples |
+| [Γ and B](notebooks/en/extra/ch03_gamma_beta.ipynb) | [Γ a B](notebooks/cs/extra/ch03_gamma_beta.ipynb) | Summed exponentials, Marsaglia–Tsang, order statistics, χ² = Γ(k/2, ½) |
+| [generators](notebooks/en/extra/ch04_generators.ipynb) | [generátory](notebooks/cs/extra/ch04_generatory.ipynb) | LCG, the RANDU planes, Mersenne Twister |
+| [testing generators](notebooks/en/extra/ch04_tests_of_generators.ipynb) | [testy generátorů](notebooks/cs/extra/ch04_testy_generatoru.ipynb) | χ², frequency, serial, poker, runs, autocorrelation |
+| [Markov chains & linear equations](notebooks/en/extra/ch06_markov_linear_equations.ipynb) | [Markov a lineární rovnice](notebooks/cs/extra/ch06_markov_linearni_rovnice.ipynb) | Solving Ax = b by random walks (von Neumann–Ulam) |
+| [walk & PDEs](notebooks/en/extra/ch06_walk_and_pde.ipynb) | [procházka a PDR](notebooks/cs/extra/ch06_prochazka_a_pde.ipynb) | Dirichlet and Poisson problems, walk on spheres |
+| [queueing](notebooks/en/extra/ch07_queueing.ipynb) | [hromadná obsluha](notebooks/cs/extra/ch07_hromadna_obsluha.ipynb) | M/M/1, Δt model vs discrete-event model, warm-up |
+| [stochastic algorithms](notebooks/en/extra/ch09_stochastic_algorithms.ipynb) | [stochastické algoritmy](notebooks/cs/extra/ch09_stochasticke_algoritmy.ipynb) | Miller–Rabin primality, simulated annealing |
 
 ### Applications — beyond the scriptum
 
 | English | Czech | Topic |
 |---------|-------|-------|
-| [insurance, realistic](notebooks/en/applications/insurance_realistic.ipynb) | [pojistovna_realisticky](notebooks/cs/aplikace/pojistovna_realisticky.ipynb) | Gradual premiums, clustered claims, generalised Lundberg bound, payout delays, a handling queue |
-| [MCMC / Metropolis](notebooks/en/applications/mcmc_metropolis.ipynb) | [mcmc_metropolis](notebooks/cs/aplikace/mcmc_metropolis.ipynb) | Step size, autocorrelation time, burn-in, batch-means errors, a 20-D ball |
-| [personal budget](notebooks/en/applications/personal_budget.ipynb) | [osobni_rozpocet](notebooks/cs/aplikace/osobni_rozpocet.ipynb) | Emergency fund, saving goal as gambler's ruin, which uncertainty drives the risk |
-| [option pricing](notebooks/en/applications/option_pricing.ipynb) | [oceneni_opci](notebooks/cs/aplikace/oceneni_opci.ipynb) | Black–Scholes check, antithetic, Asian option (865× control variate), barrier option |
-| [branching process](notebooks/en/applications/branching_process.ipynb) | [vetvici_proces](notebooks/cs/aplikace/vetvici_proces.ipynb) | Extinction as a root of s = G(s), the phase transition at R₀ = 1 |
+| [insurance, realistic](notebooks/en/applications/insurance_realistic.ipynb) | [pojišťovna realisticky](notebooks/cs/aplikace/pojistovna_realisticky.ipynb) | Gradual premiums, clustered claims, generalised Lundberg bound, payout delays, a handling queue |
+| [MCMC / Metropolis](notebooks/en/applications/mcmc_metropolis.ipynb) | [MCMC / Metropolis](notebooks/cs/aplikace/mcmc_metropolis.ipynb) | Step size, autocorrelation time, burn-in, batch-means errors, a 20-D ball |
+| [personal budget](notebooks/en/applications/personal_budget.ipynb) | [osobní rozpočet](notebooks/cs/aplikace/osobni_rozpocet.ipynb) | Emergency fund, saving goal as gambler's ruin, which uncertainty drives the risk |
+| [option pricing](notebooks/en/applications/option_pricing.ipynb) | [oceňování opcí](notebooks/cs/aplikace/oceneni_opci.ipynb) | Black–Scholes check, antithetic, Asian option (865× control variate), barrier option |
+| [branching process](notebooks/en/applications/branching_process.ipynb) | [větvící proces](notebooks/cs/aplikace/vetvici_proces.ipynb) | Extinction as a root of s = G(s), the phase transition at R₀ = 1 |
 | [percolation](notebooks/en/applications/percolation.ipynb) | [perkolace](notebooks/cs/aplikace/perkolace.ipynb) | p<sub>c</sub> = ½ by self-duality, the giant cluster |
-| [project planning](notebooks/en/applications/project_planning.ipynb) | [planovani_projektu](notebooks/cs/aplikace/planovani_projektu.ipynb) | E[max] = Hₙ, the moving critical path, where extra effort pays |
-| [system reliability](notebooks/en/applications/system_reliability.ipynb) | [spolehlivost_systemu](notebooks/cs/aplikace/spolehlivost_systemu.ipynb) | Series/parallel formulas, diminishing returns, rare failures |
+| [project planning](notebooks/en/applications/project_planning.ipynb) | [plánování projektu](notebooks/cs/aplikace/planovani_projektu.ipynb) | E[max] = Hₙ, the moving critical path, where extra effort pays |
+| [system reliability](notebooks/en/applications/system_reliability.ipynb) | [spolehlivost systému](notebooks/cs/aplikace/spolehlivost_systemu.ipynb) | Series/parallel formulas, diminishing returns, rare failures |
 | [bootstrap](notebooks/en/applications/bootstrap.ipynb) | [bootstrap](notebooks/cs/aplikace/bootstrap.ipynb) | Intervals for any statistic, a coverage experiment, where it fails |
-| [bank run](notebooks/en/applications/bank_run.ipynb) | [run_na_banku](notebooks/cs/aplikace/run_na_banku.ipynb) | Self-exciting process, avalanche size 1/(1−n), where to intervene |
+| [bank run](notebooks/en/applications/bank_run.ipynb) | [run na banku](notebooks/cs/aplikace/run_na_banku.ipynb) | Self-exciting process, avalanche size 1/(1−n), where to intervene |
 
 ### Reference
 
