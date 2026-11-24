@@ -1,0 +1,20 @@
+[project]
+name = "memc"
+version = "0.1.0"
+description = "Monte Carlo exercises (MEMC): notebooks with worked examples"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.7",
+    "jupyterlab>=4.0",
+]
+
+[project.optional-dependencies]
+# alternative SciPy versions shown in some notebooks (NumPy comes with matplotlib)
+alt = [
+    "scipy>=1.11",
+]
+
+[tool.uv]
+# exercises only, not an installable package
+package = false
