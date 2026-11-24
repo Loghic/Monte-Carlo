@@ -91,4 +91,6 @@ All in `notebooks/cs/extra/`, each verified by running it end to end:
 ## 4. Open
 
 
-- [ ] English notebooks in `notebooks/en/`, after the Czech ones are final.
+- [x] English notebooks in `notebooks/en/` — all 28, each executed with stored outputs and checked
+  to mirror its Czech twin cell for cell. Fixes found along the way were applied to both languages.
+  **Rule from here:** a change to a Czech notebook has to be made in its English twin too.

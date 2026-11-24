@@ -6,7 +6,11 @@ The main code uses only the standard library (`random`, `math`) plus `matplotlib
 
 ## Contents
 
-Czech notebooks are in `notebooks/cs/`. English versions will follow in `notebooks/en/`.
+Czech notebooks are in `notebooks/cs/`; the English versions are in `notebooks/en/` with the same
+structure (`extra/`, and `applications/` for Czech `aplikace/`). Each English notebook mirrors its
+Czech twin cell for cell, with identifiers, printed output and prose translated. The table below lists
+the Czech filenames; the English ones are the translated equivalents (`02_pojistovna` →
+`02_insurance_company`, `aplikace/perkolace` → `applications/percolation`, and so on).
 
 | # | Notebook | Topic |
 |---|----------|-------|
